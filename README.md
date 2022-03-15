@@ -8,7 +8,7 @@ Run `npm install` to install all dependencys.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `npm run server` to start json-server. It starts on `http://localhost:4200/`.
+Run `npm run server` to start json-server. It starts on `http://localhost:5000/`.
 
 
 Things to add/change:
