@@ -1,0 +1,17 @@
+<div class="project">
+    <h3>
+        Project: {{ project.name }}
+        <fa-icon 
+            (click)="onDelete()" 
+            [ngStyle]="{ color: 'red' }"
+            [icon]="faTimes">
+        </fa-icon>
+    </h3>
+    <p>User: {{ project.user }} 
+        <fa-icon
+            (click)="onEdit()" 
+            [icon]="fapencil"></fa-icon></p>
+    <p>Start Time: {{ project.startTime }}</p>
+    <p>Finish Time: {{ project.endTime }}</p>
+    <p>Project Duration: {{ project.duration }}</p>
+</div>

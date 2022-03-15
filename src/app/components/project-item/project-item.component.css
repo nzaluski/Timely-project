@@ -1,0 +1,18 @@
+.project {
+    background: #d1d1d1;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.project h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

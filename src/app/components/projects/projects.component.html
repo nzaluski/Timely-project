@@ -1,0 +1,7 @@
+<app-start-project (onAddProject)="addProject($event)"></app-start-project>
+<app-project-item 
+    *ngFor="let project of projects" 
+    [project]="project" 
+    (onDeleteProject)="deleteProject(project)"
+    (onEditProject)="editProject(project)">
+</app-project-item>

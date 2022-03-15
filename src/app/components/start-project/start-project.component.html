@@ -1,0 +1,13 @@
+<form *ngIf="showAddProject" class="add-form" (ngSubmit)="onSubmit()">
+    <h3>
+    </h3>
+    <div class="form-control">
+        <label for="name">Project</label>
+        <input type="text" name="name" [(ngModel)]="name" id="name" placeholder="New Project Title" />
+    </div>
+    <div class="form-control">
+        <label for="text">User</label>
+        <input type="text" name="user" [(ngModel)]="user" id="user" placeholder="Your Name" />
+    </div>
+    <input type="submit" value="Finish Project" class="btn btn-block" />
+</form>
